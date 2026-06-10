@@ -1,7 +1,7 @@
 import './App.css'
 
-function App() {
-    return (
+export default function Board() {
+  return (
     <>
       <div className="board-row">
         <button className="square">1</button>
@@ -18,7 +18,6 @@ function App() {
         <button className="square">8</button>
         <button className="square">9</button>
       </div>
-    </> )
+    </>
+  );
 }
-
-export default App
